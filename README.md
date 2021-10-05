@@ -17,6 +17,8 @@
 got do balena [download page](https://www.balena.io/etcher/) and download the version suitable for you.
 
 ![](/home/rdfilippo/Desktop/Scuola/howToFlashARasp/Screenshot_20211005_092258.png)
+<img title="image" src="https://github.com/filippo-ferrando/howToFlashARaspberry/blob/master/Screenshot_20211005_092258.png" alt="" width="377" data-align="center">
+
 
 
 
@@ -25,7 +27,7 @@ got do balena [download page](https://www.balena.io/etcher/) and download the ve
 for this guide we will use the lite version because we don't need a GUI
 
 ![](/home/rdfilippo/Desktop/Scuola/howToFlashARasp/Screenshot_20211005_092632.png)
-
+<img title="image" src="https://github.com/filippo-ferrando/howToFlashARaspberry/blob/master/Screenshot_20211005_092632.png" alt="" width="377" data-align="center">
 
 
 ## Now we have all we need!!
