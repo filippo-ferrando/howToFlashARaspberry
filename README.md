@@ -32,6 +32,7 @@ go and take you micro sd and insert it in to the pc.
 
 Then open balenaEtcher and select your iso image.
 
+<img title="image" src="https://github.com/filippo-ferrando/howToFlashARaspberry/blob/master/Screenshot_20211006_080927.png" alt="" width="377" data-align="center">
 ![](/home/rdfilippo/Desktop/Scuola/howToFlashARaspberry/Screenshot_20211006_080927.png)
 
 ##### Then select the media you want to flash and click "Flash!"
