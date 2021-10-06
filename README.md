@@ -32,8 +32,8 @@ go and take you micro sd and insert it in to the pc.
 
 Then open balenaEtcher and select your iso image.
 
-<img title="image" src="https://github.com/filippo-ferrando/howToFlashARaspberry/blob/master/Screenshot_20211006_080927.png" alt="" width="377" data-align="center">
 ![](/home/rdfilippo/Desktop/Scuola/howToFlashARaspberry/Screenshot_20211006_080927.png)
+<img title="image" src="https://github.com/filippo-ferrando/howToFlashARaspberry/blob/master/Screenshot_20211006_080927.png" alt="" width="377" data-align="center">
 
 ##### Then select the media you want to flash and click "Flash!"
 
@@ -53,7 +53,7 @@ To do that mount again the sd in your pc but this time go in the root partition.
 
 We gonna modify the file */etc/wpa_supplicant/wpa_supplicant.conf* and add the ssid and the password of the wifi network designed.
 
-<mark>The file requires root permissions to modify</mark>
+**The file requires root permissions to modify**
 
 Once you opened that the file have to look like these:
 
