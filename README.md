@@ -10,11 +10,11 @@
 
 4. 15-20 minutes
 
-**The image in this [repository](https://drive.google.com/file/d/1wLuyTCQxGp63mAIFYXXDNSh0i43EToBi/view?usp=sharing) is preconfigured: it have ssh enabled and wpa_supplicant configured**
+**The image in this [repository](https://drive.google.com/file/d/1wLuyTCQxGp63mAIFYXXDNSh0i43EToBi/view?usp=sharing) is preconfigured: it has enabled ssh and configured wpa_supplicant **
 
 ## Let's install etcher
 
-got do balena [download page](https://www.balena.io/etcher/) and download the version suitable for you.
+got do balena [download page](https://www.balena.io/etcher/) and download the suitable version for your needs.
 
 ![](/home/rdfilippo/Desktop/Scuola/howToFlashARaspberry/Screenshot_20211005_092258.png)
 <img title="image" src="https://github.com/filippo-ferrando/howToFlashARaspberry/blob/master/Screenshot_20211005_092258.png" alt="" width="377" data-align="center">
