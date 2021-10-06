@@ -8,7 +8,7 @@
 
 3. a pc
 
-4. 15-20 minutes
+Estimate Time: 15-20 minutes
 
 **The image in this [repository](https://drive.google.com/file/d/1wLuyTCQxGp63mAIFYXXDNSh0i43EToBi/view?usp=sharing) is preconfigured: it has enabled ssh and configured wpa_supplicant**
 
@@ -21,14 +21,14 @@ got do balena [download page](https://www.balena.io/etcher/) and download the su
 
 ## Download the raspbian ISO
 
-for this guide we will use the lite version because we don't need a GUI
+for this guide we'll use the lite version 'cause we don't need a GUI
 
 ![](/home/rdfilippo/Desktop/Scuola/howToFlashARaspberry/Screenshot_20211005_092632.png)
 <img title="image" src="https://github.com/filippo-ferrando/howToFlashARaspberry/blob/master/Screenshot_20211005_092632.png" alt="" width="377" data-align="center">
 
-## Now we have all we need!!
+## Now we have all we need!
 
-go and take you micro sd and insert it in to the pc.
+Take you micro sd and insert it in to the pc.
 
 Then open balenaEtcher and select your iso image.
 
@@ -39,23 +39,23 @@ Then open balenaEtcher and select your iso image.
 
 ## Create ssh folder in boot partition
 
-Because we want to use the Pi in headless mode (without keyboard and monitor) we have to activate ssh from the first boot.
+We have to activate ssh from the first boot because we want to use the Pi in headless mode (without keyboard and monitor).
 
 To do that mount the sd card just flashed in your pc and open the **boot** partition.
 
-create a folder named "ssh" and job done!
+create a folder named "ssh" and the job is done!
 
 ## Configure wpa_supplicant for wifi connection
 
 The Pi will connect to the lan via WiFi, so you need to setup the connection before the Pi boots.
 
-To do that mount again the sd in your pc but this time go in the root partition.
+To do that mount again the sd in your pc, but this time go in the root partition.
 
-We gonna modify the file */etc/wpa_supplicant/wpa_supplicant.conf* and add the ssid and the password of the wifi network designed.
+We'll modify the file */etc/wpa_supplicant/wpa_supplicant.conf* and add the ssid and password of the designed wifi network.
 
-**The file requires root permissions to modify**
+**The file requires root permissions to be modified**
 
-Once you opened that the file have to look like these:
+Once you opened that the file, it has to look like these:
 
 ```bash
 country=it
@@ -68,6 +68,6 @@ network={
 }
 ```
 
-After that you can finally put the sd in the Pi and power it up!
+After that you can finally put the sd in the Raspberry Pi and power it up!
 
 ### First boot and basic config
