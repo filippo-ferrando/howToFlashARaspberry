@@ -31,7 +31,7 @@ for this guide we'll use the lite version 'cause we don't need a GUI
 
 ## Now we have all we need!
 
-Take you micro sd and insert it in to the pc.
+Take you micro sd and insert it into the pc.
 
 Then open balenaEtcher and select your iso image.
 
@@ -42,7 +42,7 @@ Then open balenaEtcher and select your iso image.
 
 ## Create ssh folder in boot partition
 
-We have to activate ssh from the first boot because we want to use the Pi in
+We have to activate ssh at the first boot because we want to use the Pi in
 headless mode (without keyboard and monitor).
 
 To do that mount the sd card just flashed in your pc and open the **boot**
@@ -55,7 +55,7 @@ create a folder named "ssh" and the job is done!
 The Pi will connect to the lan via WiFi, so you need to setup the connection
 before the Pi boots.
 
-To do that mount again the sd in your pc, but this time go in the root
+To do that mount again the sd in your pc, but this time go into the root
 partition.
 
 We'll modify the file _/etc/wpa_supplicant/wpa_supplicant.conf_ and add the ssid
@@ -76,6 +76,6 @@ network={
 }
 ```
 
-After that you can finally put the sd in the Raspberry Pi and power it up!
+After that you can finally put the sd in your Raspberry Pi and power it up!
 
 ### First boot and basic config
