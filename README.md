@@ -80,7 +80,8 @@ After that you can finally put the sd in your Raspberry Pi and power it up!
 
 ## First boot and basic config
 
-When the pi ha booted up you have to find the ip address of it, to  do it try with a program like *ip-scan* and connect to it via ssh
+When the pi ha booted up you have to find its ip address, to do it run the
+command _ip-scan_ and connect your pc to the board via ssh
 
 ```bash
 ssh pi@*pi ip*
@@ -94,14 +95,15 @@ Once you're connected, launch the command:
 sudo raspi-config
 ```
 
-This will prompt a menu and from it we can change some important settings:
+This will prompt a menu from which we can change some important settings:
 
-1. hostname --> nome dispositivo nella rete
+1. hostname --> the device name on the network
 
-2. locale --> Paese (lingua) apparteneza
+2. locale --> Country (language)
 
 3. timezone
 
-4. password --> cambio password di pi e root
+4. password --> change pi and root password
 
-**opzionalmente** possiamo abilitare il *wait for network at boot* che aspetterà ad avviare completamente il sistema operativo finchè non verrà stabilita la connesione via cavo o wifi
+**optionally** we can enable the _"wait for network at boot"_ which won't fully
+boot the operating system until a Wi-Fi or cable connection is established.
