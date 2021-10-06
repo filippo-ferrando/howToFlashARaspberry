@@ -10,7 +10,7 @@
 
 4. 15-20 minutes
 
-**The image in this [repository](https://drive.google.com/file/d/1wLuyTCQxGp63mAIFYXXDNSh0i43EToBi/view?usp=sharing) is preconfigured: it has enabled ssh and configured wpa_supplicant **
+**The image in this [repository](https://drive.google.com/file/d/1wLuyTCQxGp63mAIFYXXDNSh0i43EToBi/view?usp=sharing) is preconfigured: it has enabled ssh and configured wpa_supplicant**
 
 ## Let's install etcher
 
