@@ -113,7 +113,7 @@ This will prompt a menu from which we can change some important settings:
 
 ## Update and Upgrade
 
-An importat thing is keep the software up-to-date, so we run:
+Another importat thing is to keep the software up-to-date, so we can run:
 
 ```bash
 sudo apt update && sudo apt upgrade
