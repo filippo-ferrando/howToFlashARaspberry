@@ -97,7 +97,7 @@ sudo raspi-config
 
 This will prompt a menu from which we can change some important settings:
 
-<img title="image" src="https://github.com/filippo-ferrando/howToFlashARaspberry/blob/master/raspi-config_main.png" alt="" width="377" data-align="center"> 
+<img title="image" src="https://github.com/filippo-ferrando/howToFlashARaspberry/blob/master/raspi-config_main.png" alt="" width="377" data-align="center">
 
 1. hostname --> the device name on the network
 
@@ -107,9 +107,8 @@ This will prompt a menu from which we can change some important settings:
 
 4. password --> change pi and root password
 
-**optionally** we can enable the _"wait for network at boot"_ which won't fully boot the operating system until a Wi-Fi or cable connection is established.
-
-
+**optionally** we can enable the _"wait for network at boot"_ which won't fully
+boot the operating system until a Wi-Fi or cable connection is established.
 
 ## Update and Upgrade
 
