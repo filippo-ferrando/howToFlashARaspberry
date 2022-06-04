@@ -10,24 +10,18 @@
 
 Estimate Time: 15-20 minutes
 
-**The image in this
-[repository](https://drive.google.com/file/d/1wLuyTCQxGp63mAIFYXXDNSh0i43EToBi/view?usp=sharing)
-is preconfigured: it has enabled ssh and configured wpa_supplicant**
-
 ## Let's install etcher
 
 got do balena [download page](https://www.balena.io/etcher/) and download the
 suitable version for your needs.
 
-![](/home/rdfilippo/Desktop/Scuola/howToFlashARaspberry/Screenshot_20211005_092258.png)
-<img title="image" src="https://github.com/filippo-ferrando/howToFlashARaspberry/blob/master/Screenshot_20211005_092258.png" alt="" width="377" data-align="center">
+<img title="image" src="Screenshot_20211005_092258.png" alt="" width="377" data-align="center">
 
 ## Download the raspbian ISO
 
 for this guide we'll use the lite version 'cause we don't need a GUI
 
-![](/home/rdfilippo/Desktop/Scuola/howToFlashARaspberry/Screenshot_20211005_092632.png)
-<img title="image" src="https://github.com/filippo-ferrando/howToFlashARaspberry/blob/master/Screenshot_20211005_092632.png" alt="" width="377" data-align="center">
+<img title="image" src="Screenshot_20211005_092632.png" alt="" width="377" data-align="center">
 
 ## Now we have all we need!
 
@@ -35,8 +29,7 @@ Take you micro sd and insert it into the pc.
 
 Then open balenaEtcher and select your iso image.
 
-![](/home/rdfilippo/Desktop/Scuola/howToFlashARaspberry/Screenshot_20211006_080927.png)
-<img title="image" src="https://github.com/filippo-ferrando/howToFlashARaspberry/blob/master/Screenshot_20211006_080927.png" alt="" width="377" data-align="center">
+<img title="image" src="Screenshot_20211006_080927.png" alt="" width="377" data-align="center">
 
 ##### Then select the media you want to flash and click "Flash!"
 
