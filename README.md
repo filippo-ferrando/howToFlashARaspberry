@@ -12,7 +12,7 @@ Estimate Time: 15-20 minutes
 
 ## Let's install etcher
 
-got do balena [download page](https://www.balena.io/etcher/) and download the
+go to the balena [download page](https://www.balena.io/etcher/) and retrive the
 suitable version for your needs.
 
 <img title="image" src="assets/1.png" alt="" width="377" data-align="center">
